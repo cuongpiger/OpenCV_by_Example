@@ -1,5 +1,5 @@
 # 2.6. Reading/writing images
-###### [demo_2.6_0.cpp](demo_2.6_0.cpp)
+###### [demo_02.06.00.cpp](demo_02.06.00.cpp)
 ```cpp
 #include <iostream>
 #include <string>
@@ -7,6 +7,7 @@
 
 #include <opencv4/opencv2/core.hpp>
 #include <opencv4/opencv2/highgui.hpp>
+
 using namespace cv;
 using namespace std;
 
@@ -32,5 +33,6 @@ int main(int argc, const char** argv) {
 ```
 ![](./images/02_00.png)
 
-# 2.8. Other basic object types
-## 2.8.1. The vec object type
+# 2.10. Basic data persistence and storage
+## 2.10.1. Writing to a file storage
+
